@@ -48,7 +48,7 @@ body {
     font-size: 12px;
 }
 .social-icons i{
-    margin: 10px;
+    margin: 10px; 
     color: white;
     font-size: 16px;
 }
@@ -168,11 +168,37 @@ body {
     width: 400px;
     height: 420px;
 };
- .services{
+ .container3, .Service{
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    justify-content: flex-start;
    
+}
+.service1, .service2, .service3, .service4{
+    width: 300px;
+    height: 300px;
+} 
+.Service{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    gap: 50px;
+}
+.container1{
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0  0 0 0 white;
+}
+.container2{
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0  0 0 0 white;
+}
+.container3{
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0  0 0 0 white;
 }
 }
 
